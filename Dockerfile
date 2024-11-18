@@ -1,4 +1,4 @@
-FROM docker.io/library/debian:bookworm-20241016-slim
+FROM docker.io/library/debian:bookworm-20241111-slim
 
 ENV DEBIAN_FRONTEND noninteractive
 
