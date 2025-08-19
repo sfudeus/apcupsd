@@ -1,4 +1,4 @@
-FROM docker.io/library/debian:bookworm-20250811-slim
+FROM docker.io/library/debian:trixie-20250811-slim
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -9,4 +9,4 @@ RUN apt-get update && \
 
 ADD entrypoint.sh /
 
-ENTRYPOINT [ "/entrypoint.sh"]
+ENTRYPOINT [ "/entrypoint.sh" ]
