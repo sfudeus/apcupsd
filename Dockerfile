@@ -1,4 +1,4 @@
-FROM docker.io/library/debian:trixie-20260421-slim
+FROM docker.io/library/debian:trixie-20260505-slim
 
 ENV DEBIAN_FRONTEND=noninteractive
 
